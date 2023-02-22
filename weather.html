@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>weather</title>
+  <link rel="stylesheet" href="./styles.css">
+
+  <script src="https://kit.fontawesome.com/f65ddbb7ce.js" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/f65ddbb7ce.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+
+
+  <div style="text-align: center;">
+    <h1>Weather Search</h1>
+    <input id="input" class="input" placeholder="Search Location" type="text"><br><br>
+    <button type="submit" onclick="fetchExample();"><span>Go&nbsp; </span></button>
+
+  </div>
+  <div class="data">
+    <div class="content">
+      <p class="cnt">Location : <i id="loc"></i></p>
+      <p class="cnt">Temperature : <i id="temp"></i></p>
+      <p class="cnt">Weather : <i id="weather"></i></p>
+      <p class="cnt">Humidity : <i id="humidity"></i></p>
+      <p class="cnt">Wind Speed : <i id="w-speed"></i> </p>
+    </div>
+    <div class="img">
+      <img class="img-set" src="" alt="">
+    </div>
+  </div>
+
+
+
+  <div class="error">
+    <h1 class="error-heading"></h1>
+  </div>
+
+
+  <footer >
+       
+    <div class="tags">
+    <a href="https://www.linkedin.com/in/nikunj-khinchi-b59971230/"><i class="fa-brands fa-linkedin icn fa-2x"></i></a></i>
+  <a href="https://github.com/Nikunj-Khinchi">  <i class="fa-brands fa-github icn fa-2x"></i></a>
+  <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram icn fa-2x"></i></a>  
+    
+</div>
+<div>
+  <br>
+    <em>© Copyright Nikunj Khinchi</em>
+  </div>
+</footer>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="./index.js">
+
+  </script>
+</body>
+
+</html>
