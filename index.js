@@ -1,5 +1,5 @@
 $(".content").hide();
-const fetchExample = async()=>{
+const fetchData = async()=>{
     var a = $("#input").val();
     const response = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${a}&appid=fe97615ca000e69ef624ad5bdf7846dd&units=metric`,{
         method:'GET',
